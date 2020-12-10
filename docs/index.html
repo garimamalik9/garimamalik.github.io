@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Garima Malik is a enthusiatic professional sketch artist.">
+    <meta name="keywords" content="Garima, Portraits, Paintings, Sketch">
+    <meta name="author" content="Garima Malik">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Color World</title>
+</head>
+<body>
+    <header class="desktop">
+        <nav>
+            <div class="branding">
+                <a href="index.html" class="brand-name">GM</a>
+            </div>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="far fa-envelope"></i></a></li>
+                <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <h1>Garima Malik</h1>
+        <h4>Artist</h4>
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="index.html" class="link-active">Work</a>
+                </li>
+                <div></div>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <div></div>
+                <li>
+                    <a href="contact.html">Order</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <main class="grid">
+        <div class="list">
+            <img src="./src/images/Post (1).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (2).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (3).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (4).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (5).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (6).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (7).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (8).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (9).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (10).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (11).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (12).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (13).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (14).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (15).jpg" alt="" onclick="putmodalImage(this)">
+            <img src="./src/images/Post (16).jpg" alt="" onclick="putmodalImage(this)">
+        </div>
+    </main>
+    <section class="modal" id="modal">
+        <button class="cross" onclick="modalClose()"><i class="fas fa-times"></i></button>
+        <div class="imgContainer">
+            <img src="./src/images/Post (1).jpg" alt="" id="modalImg">
+        </div>
+        <div class="imgInfo">
+            <button><a href="" id="fullresBtn" target="_blank">Open Full Resolution Image</a></button>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+        </div>
+    </section>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
