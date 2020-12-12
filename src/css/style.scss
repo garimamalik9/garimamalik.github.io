@@ -22,6 +22,9 @@ h1,h2,h3,h4,h5,h6{
     color: $dark !important;
     font-weight: 700 !important;
 }
+.disabled-link{
+    pointer-events: none !important;
+}
 header.desktop{
     width: 100%;
     height: 100px;
